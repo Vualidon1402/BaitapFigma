@@ -1,0 +1,27 @@
+.intro-container {
+  display: flex;
+  width: 1140px;
+  height: 200px;
+  margin-top: 150px;
+  justify-content: space-around;
+}
+.intro-item {
+  display: flex;
+  gap: 30px;
+}
+.intro-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.intro-title {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+.intro-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

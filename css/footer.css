@@ -1,0 +1,28 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 563px;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.social {
+  display: flex;
+  justify-items: center;
+}
+.heading-small {
+  font-weight: 600;
+  font-size: 18px;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+
+  flex-direction: column;
+  list-style: none;
+}
+.footer-link {
+  text-decoration: none;
+}

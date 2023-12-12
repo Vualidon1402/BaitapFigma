@@ -1,0 +1,45 @@
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-content {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 500px;
+  padding-left: 70px;
+}
+.header-feature-content {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+}
+.feature-image {
+  width: 500px;
+  height: 400px;
+}
+.feature-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+}
+.text-feature-desc {
+  font-weight: 400;
+  line-height: 30px;
+}
+span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.feature-icon {
+  margin-right: 10px;
+}

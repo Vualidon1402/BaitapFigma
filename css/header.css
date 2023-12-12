@@ -1,0 +1,36 @@
+.header-menu-link {
+  text-decoration: none;
+  font-weight: 400;
+  color: #4f5665;
+}
+.header-menu {
+  list-style: none;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.header-menu {
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+}
+.header-authen {
+  display: flex;
+  gap: 30px;
+}
+.header-authen-signin {
+  font-weight: 600;
+}
+.header-authen-signup {
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  color: red;
+  border: 1px solid red;
+}

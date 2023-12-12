@@ -1,0 +1,33 @@
+.hero-container {
+  display: flex;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+.hero-heading {
+  font-size: 50px;
+  width: 555px;
+  height: 140px;
+  font-weight: 500;
+  padding-top: 30px;
+  line-height: 70px;
+}
+.texthero-desc {
+  width: 555px;
+  height: 60px;
+  line-height: 30px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+.button-primary-rounded {
+  width: 270px;
+  height: 70px;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 25px;
+  text-decoration: none;
+}

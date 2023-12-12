@@ -1,0 +1,41 @@
+.customer-list {
+  display: flex;
+  gap: 30px;
+}
+.customer-item1 {
+  width: 400px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+.customer-item {
+  width: 400px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  border: 1px solid rgb(175, 172, 172);
+  border-radius: 15px;
+}
+.customer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.customer-info {
+  display: flex;
+  gap: 20px;
+}
+.customer-rating {
+  display: flex;
+  align-items: center;
+}
+.textcustomer-desc {
+  display: flex;
+  justify-content: space-around;
+  line-height: 20px;
+}
